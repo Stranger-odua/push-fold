@@ -1,0 +1,15 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 13fr 13fr;
+}
+
+.cell {
+    border: 1px solid #000;
+    padding: 10px;
+}

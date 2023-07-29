@@ -1,0 +1,86 @@
+html {
+    font-family: "Hack Nerd Font Mono", serif;
+    font-size: 24px;
+    color: #494949;
+    background-color: #393939;
+    align-items: center;
+    user-select: none;
+}
+
+.title {
+    color: darkorange;
+    margin: 10px auto;
+    grid-template-columns: 13fr;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    row-gap: 3px;
+    grid-template-rows: repeat(13, 60px);
+    place-content: center;
+}
+
+.row {
+    display: grid;
+    column-gap: 3px;
+    grid-template-columns: repeat(13, 60px);
+    line-height: 60px;
+    text-align: center;
+}
+
+.eight-ten, .six-seven, .five, .pairs, .empty {
+    border-radius: 5px;
+}
+
+.eight-ten:hover, .six-seven:hover,
+.five:hover, .pairs:hover,
+.empty:hover, .eight-ten.s:hover,
+.six-seven.s:hover, .five.s:hover {
+    box-shadow: 0 0 3px 3px rgba(8, 148, 255, 0.9);
+    background-color: black;
+    color: aqua;
+}
+
+.pairs {
+    background-color: yellow;
+}
+
+.eight-ten {
+    color: white;
+    background-color: #D73C82;
+}
+
+.eight-ten.s {
+    background-color: #AE3069;
+}
+
+.six-seven {
+    color: white;
+    background-color: #73C144;
+}
+
+.six-seven.s {
+    background-color: #5B9836;
+}
+
+.five {
+    color: white;
+    background-color: #F778F7;
+}
+
+.five.s {
+    background-color: #BB5BBB;
+}
+
+.empty {
+    background-color: #1D1D1D;
+}
+
+.hidden {
+    font-size: 30px;
+    color: gold;
+    margin: 10px auto;
+    grid-template-columns: 13fr;
+    text-align: center;
+}

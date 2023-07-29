@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push/fold ranges</title>
+    <link rel="stylesheet" href="push-fold.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+
+<div class="title">Push/fold ranges</div>
+
+<div class="wrapper">
+    <div class="row">
+        <div class="pairs">AA</div>
+        <div class="eight-ten s">AKs</div>
+        <div class="eight-ten s">AQs</div>
+        <div class="eight-ten s">AJs</div>
+        <div class="eight-ten s">ATs</div>
+        <div class="eight-ten s">A9s</div>
+        <div class="eight-ten s">A8s</div>
+        <div class="eight-ten s">A7s</div>
+        <div class="eight-ten s">A6s</div>
+        <div class="eight-ten s">A5s</div>
+        <div class="eight-ten s">A4s</div>
+        <div class="eight-ten s">A3s</div>
+        <div class="eight-ten s">A2s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">AKo</div>
+        <div class="pairs">KK</div>
+        <div class="eight-ten s">KQs</div>
+        <div class="eight-ten s">KJs</div>
+        <div class="eight-ten s">KTs</div>
+        <div class="eight-ten s">K9s</div>
+        <div class="eight-ten s">K8s</div>
+        <div class="eight-ten s">K7s</div>
+        <div class="eight-ten s">K6s</div>
+        <div class="eight-ten s">K5s</div>
+        <div class="eight-ten s">K4s</div>
+        <div class="eight-ten s">K3s</div>
+        <div class="eight-ten s">K2s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">AQo</div>
+        <div class="eight-ten">KQo</div>
+        <div class="pairs">QQ</div>
+        <div class="eight-ten s">QJs</div>
+        <div class="eight-ten s">QTs</div>
+        <div class="eight-ten s">Q9s</div>
+        <div class="eight-ten s">Q8s</div>
+        <div class="eight-ten s">Q7s</div>
+        <div class="eight-ten s">Q6s</div>
+        <div class="six-seven s">Q5s</div>
+        <div class="six-seven s">Q4s</div>
+        <div class="six-seven s">Q3s</div>
+        <div class="six-seven s">Q2s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">AJo</div>
+        <div class="eight-ten">KKo</div>
+        <div class="eight-ten">QJo</div>
+        <div class="pairs">JJ</div>
+        <div class="eight-ten s">JTs</div>
+        <div class="eight-ten s">J9s</div>
+        <div class="eight-ten s">J8s</div>
+        <div class="eight-ten s">J7s</div>
+        <div class="six-seven s">J6s</div>
+        <div class="six-seven s">J5s</div>
+        <div class="five s">J4s</div>
+        <div class="five s">J3s</div>
+        <div class="five s">J2s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">ATo</div>
+        <div class="eight-ten">KTo</div>
+        <div class="eight-ten">QTo</div>
+        <div class="eight-ten">JTo</div>
+        <div class="pairs">TT</div>
+        <div class="eight-ten s">T9s</div>
+        <div class="eight-ten s">T8s</div>
+        <div class="six-seven s">T7s</div>
+        <div class="five s">T6s</div>
+        <div class="empty">T5s</div>
+        <div class="empty">T4s</div>
+        <div class="empty">T3s</div>
+        <div class="empty">T2s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A9o</div>
+        <div class="eight-ten">K9o</div>
+        <div class="eight-ten">Q9o</div>
+        <div class="eight-ten">J9o</div>
+        <div class="eight-ten">T9o</div>
+        <div class="pairs">99</div>
+        <div class="eight-ten s">98s</div>
+        <div class="six-seven s">97s</div>
+        <div class="five s">96s</div>
+        <div class="empty">95s</div>
+        <div class="empty">94s</div>
+        <div class="empty">93s</div>
+        <div class="empty">92s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A8o</div>
+        <div class="eight-ten">K8o</div>
+        <div class="eight-ten">Q8o</div>
+        <div class="eight-ten">J8o</div>
+        <div class="eight-ten">T8o</div>
+        <div class="eight-ten">98o</div>
+        <div class="pairs">88</div>
+        <div class="eight-ten s">87s</div>
+        <div class="six-seven s">86s</div>
+        <div class="empty">85s</div>
+        <div class="empty">84s</div>
+        <div class="empty">83s</div>
+        <div class="empty">82s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A7o</div>
+        <div class="eight-ten">K7o</div>
+        <div class="eight-ten">Q7o</div>
+        <div class="six-seven">J7o</div>
+        <div class="six-seven">T7o</div>
+        <div class="five">97o</div>
+        <div class="five">87o</div>
+        <div class="pairs">77</div>
+        <div class="eight-ten s">76s</div>
+        <div class="empty">75s</div>
+        <div class="empty">74s</div>
+        <div class="empty">73s</div>
+        <div class="empty">72s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A6o</div>
+        <div class="eight-ten">K6o</div>
+        <div class="six-seven">Q6o</div>
+        <div class="six-seven">J6o</div>
+        <div class="five">T6o</div>
+        <div class="empty">96o</div>
+        <div class="empty">86o</div>
+        <div class="five">76o</div>
+        <div class="pairs">66</div>
+        <div class="eight-ten s">65s</div>
+        <div class="empty">64s</div>
+        <div class="empty">63s</div>
+        <div class="empty">62s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A5o</div>
+        <div class="eight-ten">K5o</div>
+        <div class="six-seven">Q5o</div>
+        <div class="five">J5o</div>
+        <div class="empty">T5o</div>
+        <div class="empty">95o</div>
+        <div class="empty">85o</div>
+        <div class="empty">75o</div>
+        <div class="five">65o</div>
+        <div class="pairs">55</div>
+        <div class="six-seven s">54s</div>
+        <div class="empty s">53s</div>
+        <div class="empty">52s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A4o</div>
+        <div class="six-seven">K4o</div>
+        <div class="five">Q4o</div>
+        <div class="five">J4o</div>
+        <div class="empty">T4o</div>
+        <div class="empty">94o</div>
+        <div class="empty">84o</div>
+        <div class="empty">74o</div>
+        <div class="empty">64o</div>
+        <div class="empty">54o</div>
+        <div class="pairs">44</div>
+        <div class="six-seven s">43s</div>
+        <div class="empty">42s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A3o</div>
+        <div class="six-seven">K3o</div>
+        <div class="five">Q3o</div>
+        <div class="empty">J3o</div>
+        <div class="empty">T3o</div>
+        <div class="empty">93o</div>
+        <div class="empty">83o</div>
+        <div class="empty">73o</div>
+        <div class="empty">63o</div>
+        <div class="empty">53o</div>
+        <div class="empty">43o</div>
+        <div class="pairs">33</div>
+        <div class="empty">32s</div>
+    </div>
+
+    <div class="row">
+        <div class="eight-ten">A2o</div>
+        <div class="six-seven">K2o</div>
+        <div class="five">Q2o</div>
+        <div class="empty">J2o</div>
+        <div class="empty">T2o</div>
+        <div class="empty">92o</div>
+        <div class="empty">82o</div>
+        <div class="empty">72o</div>
+        <div class="empty">62o</div>
+        <div class="empty">52o</div>
+        <div class="empty">42o</div>
+        <div class="empty">32o</div>
+        <div class="pairs">22</div>
+    </div>
+</div>
+
+<div class="hidden"></div>
+
+<script src="push-fold.js"></script>
+</body>
+</html>
