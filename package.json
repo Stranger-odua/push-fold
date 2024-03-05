@@ -1,0 +1,19 @@
+{
+  "name": "push-fold",
+  "version": "1.3.5",
+  "description": "push/fold for heads up",
+  "main": "push-fold.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stranger-odua/push-fold.git"
+  },
+  "author": "Stranger-odua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stranger-odua/push-fold/issues"
+  },
+  "homepage": "https://github.com/Stranger-odua/push-fold#readme"
+}
