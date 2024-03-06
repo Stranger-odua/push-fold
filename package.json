@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stranger-odua/push-fold/issues"
   },
-  "homepage": "https://github.com/Stranger-odua/push-fold#readme"
+  "homepage": "https://github.com/Stranger-odua/push-fold#readme",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
 }
